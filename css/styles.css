@@ -146,6 +146,15 @@ nav.navbar {
     text-align: center;
   }
 }
+
+.showcase-btn-link button.btn-1,
+.showcase-btn-link button.btn-2 {
+  margin: 1.6rem 0;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
   .showcase .btn-adjust {
     background-color: #fff;
