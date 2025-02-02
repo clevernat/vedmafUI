@@ -482,7 +482,7 @@ nav.navbar {
   font-size: 12px;
 }
 
-/* contact */
+/* CONTACT US */
 .contact__us {
   background-color: #00acd7;
 }
@@ -516,6 +516,13 @@ nav.navbar {
   padding: 1rem 4rem;
   background-color: #ffca05;
 }
+
+.contact__us-form,
+.contact__us-btn-link,
+input::placeholder,
+textarea::placeholder {
+  font-size: 1.2rem;
+}
 @media (max-width: 768px) {
   .contact__us .contact__us-main {
     grid-template-columns: 1fr;
@@ -536,6 +543,12 @@ nav.navbar {
   .contact__us .btn-3 {
     width: 100%;
   }
+  .contact__us-form,
+  .contact__us-btn-link,
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 912px) and (min-width: 769px) {
   .contact__us-img .wwd-img {
@@ -553,6 +566,7 @@ nav.navbar {
   border-radius: 5px;
 }
 
+/* FOOTER */
 footer {
   background-color: #ffca05;
   color: #fff;
@@ -577,6 +591,7 @@ footer .footer__main .social__media {
   margin: 1.5rem 0 1rem 0;
   justify-content: flex-end;
 }
+
 footer .footer__main .social__media-linkedin,
 footer .footer__main .social__media-facebook,
 footer .footer__main .social__media-twitter,
@@ -591,6 +606,11 @@ footer .footer__text {
   text-align: center;
   padding: 0 0 1rem 0;
 }
+
+.date {
+  font-size: 1.2rem;
+}
+
 @media (max-width: 768px) {
   footer .footer__main .social__media-facebook,
   footer .footer__main .social__media-twitter,
@@ -604,5 +624,9 @@ footer .footer__text {
     font-size: 1.1rem;
     padding: 0;
     margin: 0;
+  }
+
+  .date {
+    font-size: 0.9rem;
   }
 }
