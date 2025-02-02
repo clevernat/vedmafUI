@@ -505,6 +505,15 @@ nav.navbar {
   }
 }
 
+/* slick */
+.slick-slide {
+  margin: 10px;
+}
+.slick-slide img {
+  width: 100%;
+  height: auto;
+}
+
 /* contact */
 .contact__us {
   background-color: #00acd7;
