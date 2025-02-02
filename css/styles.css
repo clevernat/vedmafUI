@@ -94,7 +94,14 @@ nav.navbar {
   padding: 1rem 2.75rem;
   background-color: #fff;
 }
+.banner {
+  font-size: 1.2rem;
+}
+
 @media (max-width: 768px) {
+  .banner {
+    font-size: 1rem;
+  }
   .showcase .btn-adjust {
     background-color: #fff;
     margin-right: 1rem;
@@ -220,11 +227,15 @@ nav.navbar {
   bottom: 2rem;
 }
 .who-we-are__text p {
-  margin: 9rem 0 0 0;
+  margin: 5.5rem 0 0 0;
+  text-align: justify;
 }
 .who-we-are .showcase-btn-link button.btn-3 {
   padding: 1rem 2.3rem;
   background-color: #ffca05;
+}
+.who_we_are-mobile-view {
+  display: none;
 }
 @media (max-width: 768px) {
   .who-we-are {
@@ -246,9 +257,19 @@ nav.navbar {
     display: block;
     text-align: center;
   }
+
+  .who-we-are__text .all-view {
+    display: none;
+  }
+
+  p.who_we_are-mobile-view {
+    display: block;
+    /* text-align: justify; */
+  }
   .who-we-are .showcase-btn-link button.btn-3 {
     display: block;
     width: 100%;
+    font-size: 1rem;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -274,6 +295,11 @@ nav.navbar {
 .what-we-do {
   background-color: #00acd7;
 }
+
+.what-we-do-text {
+  font-size: 1.2rem;
+}
+
 .what-we-do .overlay {
   position: relative;
   top: 0;
@@ -285,7 +311,7 @@ nav.navbar {
 }
 .what-we-do .text__main {
   position: relative;
-  top: 8.5rem;
+  top: 4.5rem;
 }
 .what-we-do .text-main {
   display: flex;
@@ -323,6 +349,9 @@ nav.navbar {
   .what-we-do {
     padding: 0;
   }
+  .what-we-do-text {
+    font-size: 0.9rem;
+  }
   .what-we-do .overlay {
     padding: 2.5rem 0 1rem 0;
   }
@@ -352,6 +381,7 @@ nav.navbar {
   .what-we-do .showcase-btn-link button.btn-4 {
     display: block;
     width: 100%;
+    font-size: 1rem;
   }
 }
 .what-we-do .showcase-btn-link button.btn-4 {
